@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text Formatting Example</title>
+    <title>Image Mapping Example</title>
   </head>
   <body>
-    <h1>Text Formatting Example</h1>
+    <h2>Clickable Areas on an Image</h2>
 
-    <!-- Bold text -->
-    <p><b>This text is bold.</b></p>
+    <!-- The image with usemap -->
+    <img
+      src="image.jpg"
+      alt="World Map"
+      usemap="#worldmap"
+      width="500"
+      height="300"
+    />
 
-    <!-- Important text -->
-    <p><strong>This text is strong and important.</strong></p>
+    <!-- Defining the map -->
+    <map name="worldmap">
+      <!-- Defining clickable areas (rectangular, circular, and polygonal) -->
 
-    <!-- Italic text -->
-    <p><i>This text is italic.</i></p>
+      <!-- Rectangular area -->
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Africa"
+        href="https://en.wikipedia.org/wiki/Africa"
+      />
 
-    <!-- Emphasized text -->
-    <p><em>This text is emphasized.</em></p>
+      <!-- Circular area -->
+      <area
+        shape="circle"
+        coords="337,300,44"
+        alt="Australia"
+        href="https://en.wikipedia.org/wiki/Australia"
+      />
 
-    <!-- Marked text -->
-    <p>This is a <mark>highlighted/marked</mark> text.</p>
-
-    <!-- Smaller text -->
-    <p>This text is <small>smaller than normal text.</small></p>
-
-    <!-- Deleted text -->
-    <p>This text is <del>deleted (crossed out).</del></p>
-
-    <!-- Inserted text -->
-    <p>This text is <ins>inserted (underlined).</ins></p>
-
-    <!-- Subscript text -->
-    <p>This is an example of subscript: H<sub>2</sub>O (water).</p>
-
-    <!-- Superscript text -->
-    <p>
-      This is an example of superscript: E = mc<sup>2</sup> (Einstein's theory
-      of relativity).
-    </p>
+      <!-- Polygonal area -->
+      <area
+        shape="poly"
+        coords="130,180,140,210,170,250,210,280,230,250,200,200,160,150"
+        alt="USA"
+        href="https://en.wikipedia.org/wiki/United_States"
+      />
+    </map>
   </body>
 </html>
