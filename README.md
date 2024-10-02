@@ -5,6 +5,7 @@
 - Answer all questions.
 - Each question is worth 10 marks.
 - Write your answers clearly and concisely.
+- For each practical test, create a separate file named according to the task. For example, for an HTML form, name the file html_form.html.
 
 ---
 
