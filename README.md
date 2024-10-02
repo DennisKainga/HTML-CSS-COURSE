@@ -53,7 +53,7 @@
 
    **Example:**
 
-   <img src="image.jpg" alt="Sample Image" usemap="#image-map" />
+   <img src="image.jpg" alt="Sample Image" usemap="#image-map" style="height:400px;width:600px" />
    <map name="image-map">
      <area
        shape="rect"
@@ -121,7 +121,7 @@ Create a comprehensive HTML form with the following crucial form elements:
 
 **Example:**
 
-<form action="/submit" method="post">
+<!-- <form action="/submit" method="post">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" /><br /><br />
 
@@ -150,7 +150,8 @@ Gender:
   <label for="terms">I agree to the terms and conditions</label><br /><br />
 
   <input type="submit" value="Submit" />
-</form>
+</form> -->
+<img src="form.png" alt="Sample Image" usemap="#image-map"  />
 
 12. **[10 marks]**
     Write HTML code that embeds another webpage using an <iframe>. Describe one use case for using iframes in web development
