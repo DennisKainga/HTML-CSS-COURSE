@@ -98,6 +98,13 @@
     <!-- Explain what URL Encoding is and why it is important. Provide an example of a URL with special characters that need encoding. -->
      <h2 id="URL-Encoding">HTML URL Encoding</h2>
      <h3>What is URL Encoding</h3>
+     <p>URLs can only use the ASCII character set, so any non-ASCII characters must be converted before they can be transmitted over the Internet. This conversion process, known as URL encoding, replaces non-ASCII characters with a "%" symbol followed by two hexadecimal digits.</p>
+     <p>URLs also cannot contain spaces. URL encoding handles spaces by replacing them with a plus sign (+) or with %20, ensuring that the URL remains valid and can be correctly interpreted by browsers and servers.</p>
+    
+     <h3>Example of an URL that needs encoding</h3>
+     <p>https://example.com/search?query=Hello&nbsp;World&#33;</p>
+     <p>The above URL contains a space (" ") and an exclamation mark ("!"), both of which need to be encoded to be transmitted correctly over the Internet.</p>
+
     <a href="forms-and-iframes.html" target="_blank">Go to Part 5: HTML Forms and Iframes</a>
 </body>
 </html>
