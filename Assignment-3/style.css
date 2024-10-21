@@ -18,20 +18,40 @@ h1 {
 
 .top-left {
     color: blue;
+    position: absolute;
+    top: 30px;
+    left: 20px;
 }
+
+
 
 .top-right {
     color: red;
+    position: absolute;
+    top: 30px;
+    right: 60px;
 }
+
+
 
 .bottom-left {
     color: green;
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
 }
 
-.bottom-left {
-    color: aquamarine;
+.bottom-right {
+    color: purple;
+    position: absolute;
+    bottom: 70px;
+    right: 60px;
 }
+
 
 .center {
     color: orange;
+    position: absolute;
+    bottom: 250px;
+    right: 370px;
 }
