@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: red;
+}
+
+.stars-image {
+    position: relative;
+}
+
+.positions {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.top-left {
+    color: blue;
+}
+
+.top-right {
+    color: red;
+}
+
+.bottom-left {
+    color: green;
+}
+
+.bottom-left {
+    color: aquamarine;
+}
+
+.center {
+    color: orange;
+}
