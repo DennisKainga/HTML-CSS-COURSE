@@ -1,57 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aliceblue;
 }
 
 h1 {
-    color: red;
+  color: red;
 }
 
 .stars-image {
-    position: relative;
+  position: relative;
+  /* background-color: red; */
+  /* background-image: url("./stars.jpg"); */
+  height: 500px;
+}
+.image {
+  width: 100%;
+  height: 100%;
 }
 
 .positions {
-    font-size: 20px;
-    text-transform: uppercase;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .top-left {
-    color: blue;
-    position: absolute;
-    top: 30px;
-    left: 20px;
+  color: blue;
+  position: absolute;
+  top: 30px;
+  left: 20px;
 }
-
-
 
 .top-right {
-    color: red;
-    position: absolute;
-    top: 30px;
-    right: 60px;
+  color: red;
+  position: absolute;
+  top: 30px;
+  right: 60px;
 }
 
-
-
 .bottom-left {
-    color: green;
-    position: absolute;
-    bottom: 70px;
-    left: 20px;
+  color: green;
+  position: absolute;
+  bottom: 70px;
+  left: 20px;
 }
 
 .bottom-right {
-    color: purple;
-    position: absolute;
-    bottom: 70px;
-    right: 60px;
+  color: purple;
+  position: absolute;
+  bottom: 70px;
+  right: 60px;
 }
 
-
 .center {
-    color: orange;
-    position: absolute;
-    bottom: 250px;
-    right: 370px;
+  color: orange;
+  position: absolute;
+  /* bottom: 250px; */
+  /* right: 370px; */
+  left: 50%;
+  top: 50%;
+}
+.navbar {
+  height: 80px;
+  background-color: blue;
+}
+.header {
+  /* background-color: red; */
+  background-image: url("./guide-banner-image@1x.webp");
+  height: 70vh;
+}
+
+.header h3,
+p {
+  color: white;
+}
+
+.header h3 {
+  font-size: 2rem;
+}
+
+.header p {
+  font-size: 1rem;
+}
+
+.text {
+  width: 50%;
 }
