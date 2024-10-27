@@ -65,9 +65,7 @@ h1 {
   top: 50%;
 }
 
-
 /* Styles for the About Page*/
-
 
 * {
   margin: 0;
@@ -76,19 +74,16 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 body {
   background-color: lightgrey;
   min-height: 100vh;
 }
-
 
 .header {
   width: 100%;
   background-color: cadetblue;
   padding: 10px;
 }
-
 
 .logo img {
   height: 40px;
@@ -114,9 +109,17 @@ body {
 .intro {
   background-image: url(guide-banner-image.webp);
   color: white;
-  opacity: 0.7;
+  height: 70dvh; /*Device viewport height*/
   width: 100%;
+  position: relative;
   padding: 30px 50px 0px 10px;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  height: 100px;
+  background-color: red;
 }
 
 .heading-area {
@@ -136,7 +139,6 @@ body {
 
 .call-to-action {
   padding: 30px 20px 50px 0px;
-  
 }
 
 .call-to-action .get-started {
@@ -158,7 +160,6 @@ a.get-started:link {
 a.get-started:hover {
   background-color: navy;
 }
-
 
 a.contact-sales:link {
   border: 2px solid white;
