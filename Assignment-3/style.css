@@ -1,11 +1,10 @@
+/* Resetting some basic styling */
+
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: aliceblue;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -67,75 +66,85 @@ h1 {
 
 /* Styles for the About Page*/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-body {
-  background-color: lightgrey;
-  min-height: 100vh;
-}
-
-.header {
-  width: 100%;
-  background-color: cadetblue;
-  padding: 10px;
-}
-
-.logo img {
-  height: 40px;
-}
-
-/*
+/* Navbar Styling */
 
 .navbar {
-  position: relative;
-  right: 200;
-  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background-color: #0A1F44;
+  color: white;
 }
 
-.navbar-links a {
-  font-size: 15px;
+.navbar .logo {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
   color: white;
   text-decoration: none;
-  margin-left: 30px;
+  font-size: 1em;
 }
 
-*/
+.free-trial {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+
+.free-trial:hover {
+  background-color: rgb(22, 22, 128);
+}
+
+
+/*Hero Section*/
 
 .intro {
   background-image: url(guide-banner-image.webp);
-  color: white;
-  height: 70dvh; /*Device viewport height*/
+  height: 70vh; /*Device viewport height*/
   width: 100%;
-  position: relative;
-  padding: 30px 50px 0px 10px;
 }
 
-.overlay {
-  position: absolute;
-  left: 50%;
-  height: 100px;
-  background-color: red;
+
+.image-overlay {
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  
 }
+
 
 .heading-area {
-  width: 50%;
+  width: 40%;
+  padding-top: 150px;
+  padding-left: 200px;
 }
 
 .heading-area h1 {
-  font-size: 35px;
-  margin-bottom: 15px;
   color: white !important;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  
 }
 
 .heading-area p {
-  font-size: 15px;
   color: white !important;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 21px 0;
 }
+
+/*Buttons*/
 
 .call-to-action {
   padding: 30px 20px 50px 0px;
